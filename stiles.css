@@ -1,0 +1,40 @@
+.grid {
+  display: grid;  
+  height: 300px;
+  gap: 15px;
+  width: 18%;  
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(6,1fr);
+  margin: 0 auto;
+  border: 2px solid #66bbff;
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 80px; 
+    
+}
+
+.item{
+  background-color: brown;
+  border-radius: 5px;
+  
+}
+.one{
+  background-color: blue;
+  grid-row:1/4 ;
+  grid-column:1/4;
+ 
+}
+.tree{
+  background-color: blueviolet;
+  grid-row: 2/4;
+}
+.for{
+  background-color: chartreuse;
+  grid-row:4/6 ;
+}
+.six{
+  background-color:darkgreen;
+  grid-row: 4/7;
+  grid-column:2/5;
+  
+}
